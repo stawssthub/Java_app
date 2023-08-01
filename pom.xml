@@ -65,6 +65,12 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <plugins>
+            <plugin>
+                <groupId>com.minikube.sample</groupId>
+                <artifactId>kubernetes-configmap-reload-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 
 
