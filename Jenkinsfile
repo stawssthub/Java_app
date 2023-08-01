@@ -14,10 +14,10 @@ pipeline {
 
                  
                 script{
-                  gitCheckout{
-                     branch: "main"
+                  gitCheckout(
+                     branch: "main",
                      url: "https://github.com/stawssthub/Java_app.git"
-               }
+                  )
             }
             }
         }
